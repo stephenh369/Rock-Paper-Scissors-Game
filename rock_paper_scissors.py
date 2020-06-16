@@ -33,7 +33,7 @@ def runGame():
         player = False
 
 def restart():
-    retry = input("Again?(Y/N): ").lower()
+    retry = input("Again?(Y/N): ").lower().strip()
     if retry == "y":
         runGame()
     else:
