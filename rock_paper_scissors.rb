@@ -6,6 +6,7 @@ def runGame()
     playerStr = "Rock, Paper or Scissors?: "
     puts playerStr
     playerAnswer = gets.downcase().strip()
+    puts "\n"
 
     while player == true
         if (playerAnswer == "rock" && computerAnswer == "Rock")
