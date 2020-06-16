@@ -5,7 +5,7 @@ def runGame():
     computerChoices = ["Rock", "Paper", "Scissors"]
     computerStr = "Computer says: "
     computerAnswer = random.choice(computerChoices)
-    playerAnswer = input("Rock, Paper or Scissors?: ").lower()
+    playerAnswer = input("Rock, Paper or Scissors?: ").lower().strip()
     print("\n")
     
     while player == (True):
